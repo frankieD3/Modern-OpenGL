@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/cmake_install.cmake",
+		"E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-build/cmake_install.cmake",
+		"E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-build/glm/cmake_install.cmake",
+		"E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-build/cmake_install.cmake",
+		"E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-build/src/cmake_install.cmake",
+		"E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-build/docs/cmake_install.cmake",
+		"E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-build/cmake_install.cmake",
+		"E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-build/include/cmake_install.cmake",
+		"E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

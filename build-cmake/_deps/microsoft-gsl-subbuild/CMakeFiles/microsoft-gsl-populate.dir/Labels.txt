@@ -1,0 +1,14 @@
+# Target labels
+ microsoft-gsl-populate
+# Source files and their labels
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate.rule
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate-complete.rule
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-build.rule
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-configure.rule
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-download.rule
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-install.rule
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-mkdir.rule
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-patch.rule
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-test.rule
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-update.rule

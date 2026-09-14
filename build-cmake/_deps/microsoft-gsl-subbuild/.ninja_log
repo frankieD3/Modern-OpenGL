@@ -1,0 +1,21 @@
+# ninja log v7
+3	74	8111239311713038	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-mkdir	b6ce682df629d277
+3	74	8111239311713038	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-mkdir	b6ce682df629d277
+74	2392	8111239334891614	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-download	c5a506a13bac4369
+74	2392	8111239334891614	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-download	c5a506a13bac4369
+2392	2510	8111239334986424	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-update	52ad59874aa48ef
+2392	2510	8111239334986424	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-update	52ad59874aa48ef
+2511	2584	8111239336804393	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-patch	ce9372285af9b26a
+2511	2584	8111239336804393	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-patch	ce9372285af9b26a
+2585	2655	8111239337522275	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-configure	d38c2ffb6d4efd
+2585	2655	8111239337522275	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-configure	d38c2ffb6d4efd
+2655	2721	8111239338181911	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-build	b4831e41a49002ed
+2655	2721	8111239338181911	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-build	b4831e41a49002ed
+2721	2787	8111239338844976	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-install	2837051b7740a5ec
+2721	2787	8111239338844976	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-install	2837051b7740a5ec
+2787	2856	8111239339529421	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-test	d77c38a0cee2a48f
+2787	2856	8111239339529421	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-test	d77c38a0cee2a48f
+2856	2950	8111239340465175	CMakeFiles/microsoft-gsl-populate-complete	cbbdbb34efe9c11
+2856	2950	8111239340465175	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-done	cbbdbb34efe9c11
+2856	2950	8111239340465175	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate-complete	cbbdbb34efe9c11
+2856	2950	8111239340465175	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-done	cbbdbb34efe9c11

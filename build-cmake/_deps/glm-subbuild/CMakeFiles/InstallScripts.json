@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

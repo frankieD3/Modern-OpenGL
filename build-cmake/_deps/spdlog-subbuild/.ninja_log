@@ -1,0 +1,21 @@
+# ninja log v7
+2	72	8111239342990387	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	965c119ca4ccb76
+2	72	8111239342990387	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	965c119ca4ccb76
+72	2410	8111239366373191	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	54e5ed122970ac83
+72	2410	8111239366373191	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	54e5ed122970ac83
+2410	2518	8111239366458296	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	4f8ad5723cba9dcb
+2410	2518	8111239366458296	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	4f8ad5723cba9dcb
+2519	2585	8111239368119546	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	22a2f0435e081ab1
+2519	2585	8111239368119546	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	22a2f0435e081ab1
+2585	2651	8111239368777055	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	20888d855d16426a
+2585	2651	8111239368777055	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	20888d855d16426a
+2651	2739	8111239369659542	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	f93bd4423ba5d547
+2651	2739	8111239369659542	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	f93bd4423ba5d547
+2739	2805	8111239370320944	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	dda3eaa2eec5f4a0
+2739	2805	8111239370320944	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	dda3eaa2eec5f4a0
+2805	2870	8111239370977558	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	92e16c8b5eb2644e
+2805	2870	8111239370977558	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	92e16c8b5eb2644e
+2871	2962	8111239371893957	CMakeFiles/spdlog-populate-complete	814e32711ade5d10
+2871	2962	8111239371893957	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	814e32711ade5d10
+2871	2962	8111239371893957	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete	814e32711ade5d10
+2871	2962	8111239371893957	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	814e32711ade5d10

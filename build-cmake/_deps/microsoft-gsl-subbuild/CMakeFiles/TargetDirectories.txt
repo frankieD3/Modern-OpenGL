@@ -1,0 +1,3 @@
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate.dir
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/CMakeFiles/edit_cache.dir
+E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/CMakeFiles/rebuild_cache.dir

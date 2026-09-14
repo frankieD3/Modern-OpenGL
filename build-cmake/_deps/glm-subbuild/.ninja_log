@@ -1,0 +1,21 @@
+# ninja log v7
+2	70	8111239155502354	glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	4cc741565df17e38
+2	70	8111239155502354	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	4cc741565df17e38
+71	10141	8111239256213295	glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	78b5eee6cfa8879e
+71	10141	8111239256213295	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	78b5eee6cfa8879e
+10141	10252	8111239256300336	glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	74030973840a9046
+10141	10252	8111239256300336	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	74030973840a9046
+10252	10322	8111239258017741	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	a005bbb623a1d3b5
+10252	10322	8111239258017741	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	a005bbb623a1d3b5
+10322	10390	8111239258704915	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	e94a918b1e9a2012
+10322	10390	8111239258704915	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	e94a918b1e9a2012
+10391	10458	8111239259374957	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	cf4b23ceb3b3014c
+10391	10458	8111239259374957	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	cf4b23ceb3b3014c
+10458	10526	8111239260058060	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	c8b54b200c2b6fd8
+10458	10526	8111239260058060	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	c8b54b200c2b6fd8
+10526	10592	8111239260725730	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	4605f65e74081d
+10526	10592	8111239260725730	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	4605f65e74081d
+10593	10689	8111239261685584	CMakeFiles/glm-populate-complete	ae1daf60794604e0
+10593	10689	8111239261685584	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	ae1daf60794604e0
+10593	10689	8111239261685584	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	ae1daf60794604e0
+10593	10689	8111239261685584	E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	ae1daf60794604e0

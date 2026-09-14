@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate"
+		},
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate.rule"
+		},
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate-complete.rule"
+		},
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-build.rule"
+		},
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-configure.rule"
+		},
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-download.rule"
+		},
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-install.rule"
+		},
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-patch.rule"
+		},
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-test.rule"
+		},
+		{
+			"file" : "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"microsoft-gsl-populate"
+		],
+		"name" : "microsoft-gsl-populate"
+	}
+}

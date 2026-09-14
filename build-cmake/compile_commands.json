@@ -1,0 +1,698 @@
+[
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "cmake_object_order_depends_target_glfw",
+    "output": "cmake_object_order_depends_target_ModernOpenGL"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glm-src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\include\" -external:I\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Libraries\\glew-2.3.1\\include\" -external:I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\microsoft-gsl-src\\include\" -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 /Zi -std:c++latest -MDd /utf-8 /showIncludes /FoCMakeFiles\\ModernOpenGL.dir\\main.cpp.obj /FdCMakeFiles\\ModernOpenGL.dir\\ /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\main.cpp\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/main.cpp",
+    "output": "CMakeFiles/ModernOpenGL.dir/main.cpp.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd . && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -E vs_link_exe --msvc-ver=1951 --intdir=CMakeFiles\\ModernOpenGL.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\ModernOpenGL.dir\\main.cpp.obj  /out:ModernOpenGL.exe /implib:ModernOpenGL.lib /pdb:ModernOpenGL.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /DEBUG /subsystem:console  opengl32.lib  _deps\\glfw-build\\src\\glfw3.lib  \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Libraries\\glew-2.3.1\\lib\\Release\\x64\\glew32.lib\"  _deps\\glm-build\\glm\\glm.lib  _deps\\spdlog-build\\spdlogd.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd .\"",
+    "file": "CMakeFiles/ModernOpenGL.dir/main.cpp.obj",
+    "output": "ModernOpenGL.exe"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "CMakeFiles/edit_cache.util",
+    "output": "edit_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "CMakeFiles/rebuild_cache.util",
+    "output": "rebuild_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -P cmake_install.cmake\"",
+    "file": "all",
+    "output": "CMakeFiles/install.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "CMakeFiles/install.util",
+    "output": "install"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"",
+    "file": "all",
+    "output": "CMakeFiles/install/local.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "CMakeFiles/install/local.util",
+    "output": "install/local"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/CMakeFiles/edit_cache.util",
+    "output": "_deps/glm-build/edit_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/CMakeFiles/rebuild_cache.util",
+    "output": "_deps/glm-build/rebuild_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glm-build\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -P cmake_install.cmake\"",
+    "file": "_deps/glm-build/all",
+    "output": "_deps/glm-build/CMakeFiles/install.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/CMakeFiles/install.util",
+    "output": "_deps/glm-build/install"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glm-build\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"",
+    "file": "_deps/glm-build/all",
+    "output": "_deps/glm-build/CMakeFiles/install/local.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/CMakeFiles/install/local.util",
+    "output": "_deps/glm-build/install/local"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": ".",
+    "output": "cmake_object_order_depends_target_glm"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glm-src\" /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 /Zi -std:c++latest -MDd /Za /fp:precise /showIncludes /Fo_deps\\glm-build\\glm\\CMakeFiles\\glm.dir\\detail\\glm.cpp.obj /Fd_deps\\glm-build\\glm\\CMakeFiles\\glm.dir\\glm.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glm-src\\glm\\detail\\glm.cpp\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glm-src/glm/detail/glm.cpp",
+    "output": "_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd . && C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:_deps\\glm-build\\glm\\glm.lib _deps\\glm-build\\glm\\CMakeFiles\\glm.dir\\detail\\glm.cpp.obj && cd .\"",
+    "file": "_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj",
+    "output": "_deps/glm-build/glm/glm.lib"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/glm/CMakeFiles/edit_cache.util",
+    "output": "_deps/glm-build/glm/edit_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/glm/CMakeFiles/rebuild_cache.util",
+    "output": "_deps/glm-build/glm/rebuild_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glm-build\\glm\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -P cmake_install.cmake\"",
+    "file": "_deps/glm-build/glm/all",
+    "output": "_deps/glm-build/glm/CMakeFiles/install.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/glm/CMakeFiles/install.util",
+    "output": "_deps/glm-build/glm/install"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glm-build\\glm\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"",
+    "file": "_deps/glm-build/glm/all",
+    "output": "_deps/glm-build/glm/CMakeFiles/install/local.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/glm/CMakeFiles/install/local.util",
+    "output": "_deps/glm-build/glm/install/local"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/CMakeFiles/uninstall",
+    "output": "_deps/glfw-build/uninstall"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/CMakeFiles/edit_cache.util",
+    "output": "_deps/glfw-build/edit_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/CMakeFiles/rebuild_cache.util",
+    "output": "_deps/glfw-build/rebuild_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -P cmake_install.cmake\"",
+    "file": "_deps/glfw-build/all",
+    "output": "_deps/glfw-build/CMakeFiles/install.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/CMakeFiles/install.util",
+    "output": "_deps/glfw-build/install"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"",
+    "file": "_deps/glfw-build/all",
+    "output": "_deps/glfw-build/CMakeFiles/install/local.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/CMakeFiles/install/local.util",
+    "output": "_deps/glfw-build/install/local"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": ".",
+    "output": "cmake_object_order_depends_target_glfw"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\context.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\context.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/context.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\init.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\init.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/init.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\input.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\input.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/input.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\monitor.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/monitor.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\platform.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\platform.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/platform.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\vulkan.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/vulkan.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\window.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\window.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/window.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\egl_context.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/egl_context.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\osmesa_context.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/osmesa_context.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\null_init.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/null_init.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\null_monitor.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/null_monitor.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\null_window.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/null_window.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\null_joystick.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/null_joystick.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\win32_module.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/win32_module.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_module.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\win32_time.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/win32_time.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\win32_thread.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/win32_thread.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\win32_init.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/win32_init.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\win32_joystick.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/win32_joystick.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\win32_monitor.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/win32_monitor.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\win32_window.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/win32_window.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\include\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\" -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd /W3 /showIncludes /Fo_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj /Fd_deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\glfw.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-src\\src\\wgl_context.c\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/glfw-src/src/wgl_context.c",
+    "output": "_deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd . && C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:_deps\\glfw-build\\src\\glfw3.lib _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\context.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\init.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\input.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\monitor.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\platform.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\vulkan.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\window.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\egl_context.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\osmesa_context.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\null_init.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\null_monitor.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\null_window.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\null_joystick.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_module.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_time.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_thread.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_init.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_joystick.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_monitor.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\win32_window.c.obj _deps\\glfw-build\\src\\CMakeFiles\\glfw.dir\\wgl_context.c.obj && cd .\"",
+    "file": "_deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj",
+    "output": "_deps/glfw-build/src/glfw3.lib"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/src/CMakeFiles/update_mappings",
+    "output": "_deps/glfw-build/src/update_mappings"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/src/CMakeFiles/edit_cache.util",
+    "output": "_deps/glfw-build/src/edit_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/src/CMakeFiles/rebuild_cache.util",
+    "output": "_deps/glfw-build/src/rebuild_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -P cmake_install.cmake\"",
+    "file": "_deps/glfw-build/src/all",
+    "output": "_deps/glfw-build/src/CMakeFiles/install.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/src/CMakeFiles/install.util",
+    "output": "_deps/glfw-build/src/install"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\src\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"",
+    "file": "_deps/glfw-build/src/all",
+    "output": "_deps/glfw-build/src/CMakeFiles/install/local.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/src/CMakeFiles/install/local.util",
+    "output": "_deps/glfw-build/src/install/local"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/docs/CMakeFiles/docs",
+    "output": "_deps/glfw-build/docs/docs"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/docs/CMakeFiles/edit_cache.util",
+    "output": "_deps/glfw-build/docs/edit_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/docs/CMakeFiles/rebuild_cache.util",
+    "output": "_deps/glfw-build/docs/rebuild_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\docs\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -P cmake_install.cmake\"",
+    "file": "_deps/glfw-build/docs/all",
+    "output": "_deps/glfw-build/docs/CMakeFiles/install.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/docs/CMakeFiles/install.util",
+    "output": "_deps/glfw-build/docs/install"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\docs\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"",
+    "file": "_deps/glfw-build/docs/all",
+    "output": "_deps/glfw-build/docs/CMakeFiles/install/local.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/docs/CMakeFiles/install/local.util",
+    "output": "_deps/glfw-build/docs/install/local"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/docs/html/index.html",
+    "output": "_deps/glfw-build/docs/CMakeFiles/docs"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\glfw-build\\docs\" && \"C:\\Program Files\\doxygen\\bin\\doxygen.exe\"\"",
+    "file": "_deps/glfw-build/docs/Doxyfile",
+    "output": "_deps/glfw-build/docs/html/index.html"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/microsoft-gsl-build/CMakeFiles/edit_cache.util",
+    "output": "_deps/microsoft-gsl-build/edit_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/microsoft-gsl-build/CMakeFiles/rebuild_cache.util",
+    "output": "_deps/microsoft-gsl-build/rebuild_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\microsoft-gsl-build\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -P cmake_install.cmake\"",
+    "file": "_deps/microsoft-gsl-build/all",
+    "output": "_deps/microsoft-gsl-build/CMakeFiles/install.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/microsoft-gsl-build/CMakeFiles/install.util",
+    "output": "_deps/microsoft-gsl-build/install"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\microsoft-gsl-build\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"",
+    "file": "_deps/microsoft-gsl-build/all",
+    "output": "_deps/microsoft-gsl-build/CMakeFiles/install/local.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/microsoft-gsl-build/CMakeFiles/install/local.util",
+    "output": "_deps/microsoft-gsl-build/install/local"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/microsoft-gsl-build/include/CMakeFiles/edit_cache.util",
+    "output": "_deps/microsoft-gsl-build/include/edit_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/microsoft-gsl-build/include/CMakeFiles/rebuild_cache.util",
+    "output": "_deps/microsoft-gsl-build/include/rebuild_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\microsoft-gsl-build\\include\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -P cmake_install.cmake\"",
+    "file": "_deps/microsoft-gsl-build/include/all",
+    "output": "_deps/microsoft-gsl-build/include/CMakeFiles/install.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/microsoft-gsl-build/include/CMakeFiles/install.util",
+    "output": "_deps/microsoft-gsl-build/include/install"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\microsoft-gsl-build\\include\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"",
+    "file": "_deps/microsoft-gsl-build/include/all",
+    "output": "_deps/microsoft-gsl-build/include/CMakeFiles/install/local.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/microsoft-gsl-build/include/CMakeFiles/install/local.util",
+    "output": "_deps/microsoft-gsl-build/include/install/local"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": ".",
+    "output": "cmake_object_order_depends_target_spdlog"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\include\" /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 /Zi -std:c++latest -MDd /Zc:__cplusplus /utf-8 /showIncludes /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\spdlog.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\src\\spdlog.cpp\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-src/src/spdlog.cpp",
+    "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\include\" /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 /Zi -std:c++latest -MDd /Zc:__cplusplus /utf-8 /showIncludes /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\stdout_sinks.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\src\\stdout_sinks.cpp\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-src/src/stdout_sinks.cpp",
+    "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\include\" /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 /Zi -std:c++latest -MDd /Zc:__cplusplus /utf-8 /showIncludes /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\color_sinks.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\src\\color_sinks.cpp\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-src/src/color_sinks.cpp",
+    "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\include\" /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 /Zi -std:c++latest -MDd /Zc:__cplusplus /utf-8 /showIncludes /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\file_sinks.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\src\\file_sinks.cpp\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-src/src/file_sinks.cpp",
+    "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\include\" /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 /Zi -std:c++latest -MDd /Zc:__cplusplus /utf-8 /showIncludes /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\async.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\src\\async.cpp\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-src/src/async.cpp",
+    "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\include\" /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 /Zi -std:c++latest -MDd /Zc:__cplusplus /utf-8 /showIncludes /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\cfg.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\src\\cfg.cpp\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-src/src/cfg.cpp",
+    "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -I\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\include\" /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 /Zi -std:c++latest -MDd /Zc:__cplusplus /utf-8 /showIncludes /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\bundled_fmtlib_format.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-src\\src\\bundled_fmtlib_format.cpp\"",
+    "file": "E:/Development/graphics/OpenGL/Modern OpenGL/build-cmake/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+    "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd . && C:\\PROGRA~1\\MIB055~1\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:_deps\\spdlog-build\\spdlogd.lib _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\spdlog.cpp.obj _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\stdout_sinks.cpp.obj _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\color_sinks.cpp.obj _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\file_sinks.cpp.obj _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\async.cpp.obj _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\cfg.cpp.obj _deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\bundled_fmtlib_format.cpp.obj && cd .\"",
+    "file": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj",
+    "output": "_deps/spdlog-build/spdlogd.lib"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/spdlog-build/CMakeFiles/edit_cache.util",
+    "output": "_deps/spdlog-build/edit_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/spdlog-build/CMakeFiles/rebuild_cache.util",
+    "output": "_deps/spdlog-build/rebuild_cache"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-build\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -P cmake_install.cmake\"",
+    "file": "_deps/spdlog-build/all",
+    "output": "_deps/spdlog-build/CMakeFiles/install.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/spdlog-build/CMakeFiles/install.util",
+    "output": "_deps/spdlog-build/install"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "C:\\windows\\system32\\cmd.exe /C \"cd /D \"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\\_deps\\spdlog-build\" && \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake\"",
+    "file": "_deps/spdlog-build/all",
+    "output": "_deps/spdlog-build/CMakeFiles/install/local.util"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/spdlog-build/CMakeFiles/install/local.util",
+    "output": "_deps/spdlog-build/install/local"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "ModernOpenGL.exe",
+    "output": "ModernOpenGL"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/docs/docs",
+    "output": "docs"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/src/glfw3.lib",
+    "output": "glfw"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/src/glfw3.lib",
+    "output": "glfw3.lib"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/glm/glm.lib",
+    "output": "glm"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/glm/glm.lib",
+    "output": "glm.lib"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/spdlog-build/spdlogd.lib",
+    "output": "spdlog"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/spdlog-build/spdlogd.lib",
+    "output": "spdlogd.lib"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/uninstall",
+    "output": "uninstall"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/src/update_mappings",
+    "output": "update_mappings"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "ModernOpenGL.exe",
+    "output": "all"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/src/all",
+    "output": "_deps/glfw-build/all"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/docs/docs",
+    "output": "_deps/glfw-build/docs/all"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glfw-build/src/glfw3.lib",
+    "output": "_deps/glfw-build/src/all"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/glm/all",
+    "output": "_deps/glm-build/all"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/glm-build/glm/glm.lib",
+    "output": "_deps/glm-build/glm/all"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/microsoft-gsl-build/include/all",
+    "output": "_deps/microsoft-gsl-build/all"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "",
+    "file": "_deps/spdlog-build/spdlogd.lib",
+    "output": "_deps/spdlog-build/all"
+  },
+  {
+    "directory": "E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake",
+    "command": "\"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" --regenerate-during-build -S\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\" -B\"E:\\Development\\graphics\\OpenGL\\Modern OpenGL\\build-cmake\"",
+    "file": "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/BasicConfigVersion-SameMajorVersion.cmake.in",
+    "output": "build.ninja"
+  }
+]
