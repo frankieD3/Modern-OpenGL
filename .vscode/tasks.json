@@ -3,16 +3,8 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "CMake: build",
-			"command": "build",
-			"group": "build",
-			"problemMatcher": [],
-			"detail": "CMake template build task"
-		},
-		{
-			"type": "shell",
 			"label": "CMake: Build (Release)",
-			"command": "cmake --build build --config Release",
+			"command": "cmake --build build --config Release --target ModernOpenGL",
 			"group": {
 				"kind": "build",
 				"isDefault": false
@@ -22,7 +14,7 @@
 		{
 			"type": "shell",
 			"label": "CMake: Build (Debug)",
-			"command": "cmake --build build --config Debug",
+			"command": "cmake --build build --config Debug --target ModernOpenGL",
 			"group": {
 				"kind": "build",
 				"isDefault": true
