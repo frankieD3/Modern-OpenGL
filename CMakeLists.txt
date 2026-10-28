@@ -15,6 +15,7 @@ endif()
 find_package(OpenGL REQUIRED)
 
 set(GLEW_ROOT "C:/Program Files/Microsoft Visual Studio/18/Community/Libraries/glew-2.3.1")
+set(GLEW_DLL "")
 
 find_path(GLEW_INCLUDE_DIR
     NAMES GL/glew.h
@@ -22,8 +23,14 @@ find_path(GLEW_INCLUDE_DIR
     REQUIRED
 )
 
+set(GLEW_LIBRARY_NAMES glew32 glew)
+if(MSVC)
+    list(APPEND GLEW_LIBRARY_NAMES glew32s)
+endif()
+
+unset(GLEW_LIBRARY CACHE)
 find_library(GLEW_LIBRARY
-    NAMES glew32 glew
+    NAMES ${GLEW_LIBRARY_NAMES}
     PATHS
         "${GLEW_ROOT}/lib/Release/x64"
         "${GLEW_ROOT}/lib/Release/Win32"
@@ -31,11 +38,29 @@ find_library(GLEW_LIBRARY
     REQUIRED
 )
 
-add_library(GLEW::GLEW UNKNOWN IMPORTED)
-set_target_properties(GLEW::GLEW PROPERTIES
-    IMPORTED_LOCATION "${GLEW_LIBRARY}"
-    INTERFACE_INCLUDE_DIRECTORIES "${GLEW_INCLUDE_DIR}"
-)
+if(GLEW_LIBRARY MATCHES [[glew32s(\.lib)?$]])
+    add_library(GLEW::GLEW STATIC IMPORTED)
+    set_target_properties(GLEW::GLEW PROPERTIES
+        IMPORTED_LOCATION "${GLEW_LIBRARY}"
+        INTERFACE_INCLUDE_DIRECTORIES "${GLEW_INCLUDE_DIR}"
+        INTERFACE_COMPILE_DEFINITIONS GLEW_STATIC
+    )
+else()
+    add_library(GLEW::GLEW SHARED IMPORTED)
+    if(CMAKE_SIZEOF_VOID_P EQUAL 8)
+        set(GLEW_DLL "${GLEW_ROOT}/bin/Release/x64/glew32.dll")
+    else()
+        set(GLEW_DLL "${GLEW_ROOT}/bin/Release/Win32/glew32.dll")
+    endif()
+    if(NOT EXISTS "${GLEW_DLL}")
+        message(FATAL_ERROR "Could not find ${GLEW_DLL}.")
+    endif()
+    set_target_properties(GLEW::GLEW PROPERTIES
+        IMPORTED_IMPLIB "${GLEW_LIBRARY}"
+        IMPORTED_LOCATION "${GLEW_DLL}"
+        INTERFACE_INCLUDE_DIRECTORIES "${GLEW_INCLUDE_DIR}"
+    )
+endif()
 
 include(FetchContent)
 fetchcontent_declare(
@@ -71,11 +96,13 @@ fetchcontent_makeavailable(spdlog)
 	#"${CMAKE_CURRENT_SOURCE_DIR}/src/*.h"
 #)
 
-add_executable(ModernOpenGL main.cpp)
+add_executable(ModernOpenGL main.cpp shaders.cpp)
+target_include_directories(ModernOpenGL PRIVATE
+    "${CMAKE_CURRENT_SOURCE_DIR}/Include"
+)
 
 # Copy the GLEW DLL next to the executable so it can be loaded at runtime.
-if(WIN32)
-    set(GLEW_DLL "${GLEW_ROOT}/bin/Release/x64/glew32.dll")
+if(WIN32 AND GLEW_DLL)
     if(EXISTS "${GLEW_DLL}")
         add_custom_command(TARGET ModernOpenGL POST_BUILD
             COMMAND ${CMAKE_COMMAND} -E copy_if_different
