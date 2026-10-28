@@ -3,30 +3,36 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include "spdlog/spdlog.h"
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+
+#include "shaders.h"
 
 // Window dimensions
 const GLint WINDOW_WIDTH = 800;
 const GLint WINDOW_HEIGHT = 600;
 
-GLuint VAO, VBO, shader;
+const float toRadians = 3.14159265f / 180.0f;
+
+GLuint VAO = 0, VBO = 0;
+
+GLint uniformModel = 0;
+
+bool direction = true;
+float triOffset = 0.0f;
+float triMaxOffset = 0.7f;
+float triIncrement = 0.005f;
+
+float curAngle = 0.0f;
+float angleIncrement = 1.0f;
+
+bool sizeDirection = true;
+float curSize = 0.4f;
+float MaxSize = 0.8f;
+float MinSize = 0.1f;
 
 // Vertex data and buffer setup for a triangle
-
-static const char *vShader = "\n\
-#version 330 core                                                           \n\
-    layout(location = 0) in vec3 pos;                                       \n\
- void main()                                                                \n\
-{                                                                           \n\
-        gl_Position = vec4(0.4f * pos.x, 0.4f * pos.y, pos.z, 1.0);         \n\
-} ";
-
-static const char *fShader = "\n\
-#version 330 core                                                           \n\
-    out vec4 color;                                                         \n\
- void main()                                                                \n\
-{                                                                           \n\
-        color = vec4(1.0, 0.0, 0.0, 1.0);                                   \n\
-} ";
 
 void CreateTriangle()
 {
@@ -246,6 +252,7 @@ int main() {
     // | 10 | Compile the shaders
     //
     CompileShaders();
+    uniformModel = glGetUniformLocation(shader, "model");
 
     // Main loop
     while (!glfwWindowShouldClose(mainWindow))
@@ -254,6 +261,38 @@ int main() {
         // | 1 | Poll for and process events
         //
         glfwPollEvents();
+        if (direction)
+        {
+            triOffset += triIncrement;
+        }
+        else
+        {
+            triOffset -= triIncrement;
+        }
+
+        if (abs(triOffset) >= triMaxOffset)
+        {
+            direction = !direction;
+        }
+
+        curAngle += angleIncrement;
+        if (curAngle >= 360.0f)
+        {
+            curAngle -= 360.0f;
+        }
+
+        if (sizeDirection)
+        {
+            curSize += 0.01f;
+        }
+        else
+        {
+            curSize -= 0.01f;
+        }
+        if (curSize >= MaxSize || curSize <= MinSize)
+        {
+            sizeDirection = !sizeDirection;
+        }
 
         // | 2 | Clear the window
         //
@@ -263,6 +302,23 @@ int main() {
         // | 3 | Use the shader program for rendering
         //
         glUseProgram(shader);
+
+        glm::mat4 model = glm::mat4(1.0f);
+
+        model = glm::translate(model,
+                               glm::vec3(triOffset, 0.0f, 0.0f));
+
+        model = glm::rotate(model,
+                            curAngle * toRadians,
+                            glm::vec3(0.0f, 0.0f, 1.0f));
+
+        model = glm::scale(model,
+                           glm::vec3(curSize, curSize, 1.0f));
+
+        glUniformMatrix4fv(uniformModel,
+                           1,
+                           GL_FALSE,
+                           glm::value_ptr(model));
 
         // | 4 | Bind the vertex array object and draw the triangle
         //
@@ -283,5 +339,4 @@ int main() {
     glfwDestroyWindow(mainWindow);
     glfwTerminate();
     return 0;
-
 }
